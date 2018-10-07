@@ -22,7 +22,6 @@ public class DuplicateModel : MonoBehaviour {
             Vector3 pos = transform.position;
             GameObject go = Instantiate<GameObject>(prefab, pos, transform.rotation);
             go.GetComponent<VRTK_InteractableObject>().isGrabbable = true;
-            //go.transform.localScale *= 2f;
             GetComponent<Transform>().localScale *= scale;
             isDuped = true;
         }
