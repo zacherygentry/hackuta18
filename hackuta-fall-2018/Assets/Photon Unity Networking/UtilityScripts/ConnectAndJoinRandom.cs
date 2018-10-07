@@ -22,6 +22,12 @@ public class ConnectAndJoinRandom : Photon.MonoBehaviour
         PhotonNetwork.autoJoinLobby = false;    // we join randomly. always. no need to join a lobby to get the list of rooms.
     }
 
+    private void Awake()
+    {
+        PhotonNetwork.sendRate = 30;
+        PhotonNetwork.sendRateOnSerialize = 30;
+    }
+
     public virtual void Update()
     {
         if (ConnectInUpdate && AutoConnect && !PhotonNetwork.connected)
