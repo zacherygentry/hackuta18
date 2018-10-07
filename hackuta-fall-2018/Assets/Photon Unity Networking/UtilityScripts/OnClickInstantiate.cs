@@ -20,10 +20,12 @@ public class OnClickInstantiate : MonoBehaviour
         switch (InstantiateType)
         {
             case 0:
-                PhotonNetwork.Instantiate(Prefab.name, InputToEvent.inputHitPos + new Vector3(0, 5f, 0), Quaternion.identity, 0);
+                var cube = PhotonNetwork.Instantiate(Prefab.name, InputToEvent.inputHitPos + new Vector3(0, 5f, 0), Quaternion.identity, 0);
+                cube.AddComponent<ChangeColor>();
                 break;
             case 1:
-                PhotonNetwork.InstantiateSceneObject(Prefab.name, InputToEvent.inputHitPos + new Vector3(0, 5f, 0), Quaternion.identity, 0, null);
+                var sceneCube = PhotonNetwork.InstantiateSceneObject(Prefab.name, InputToEvent.inputHitPos + new Vector3(0, 5f, 0), Quaternion.identity, 0, null);
+                sceneCube.AddComponent<ChangeColor>();
                 break;
         }
     }
