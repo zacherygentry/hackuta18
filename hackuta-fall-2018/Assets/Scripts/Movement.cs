@@ -13,8 +13,8 @@ public class Movement : MonoBehaviour {
 
     private void Awake()
     {
-        PhotonNetwork.sendRate = 30;
-        PhotonNetwork.sendRateOnSerialize = 30;
+        PhotonNetwork.sendRate = 60;
+        PhotonNetwork.sendRateOnSerialize = 60;
     }
 
     // Update is called once per frame
