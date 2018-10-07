@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114577177230710734}
   - component: {fileID: 114814691850583470}
   - component: {fileID: 114912318457879796}
+  - component: {fileID: 114829985516103792}
   m_Layer: 0
   m_Name: traffic_light
   m_TagString: Untagged
@@ -181,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
+  disableWhenIdle: 0
   allowedNearTouchControllers: 0
   allowedTouchControllers: 0
   ignoredColliders: []
@@ -279,6 +280,19 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &114829985516103792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1012213172746586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9971c8a157de64e4184e6e3c20c58b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1012213172746586}
+  scale: 2
 --- !u!114 &114912318457879796
 MonoBehaviour:
   m_ObjectHideFlags: 1

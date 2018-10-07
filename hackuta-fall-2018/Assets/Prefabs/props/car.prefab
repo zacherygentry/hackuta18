@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114820751758942262}
   - component: {fileID: 114392727023169566}
   - component: {fileID: 114909190797985780}
+  - component: {fileID: 114607966554437042}
   m_Layer: 0
   m_Name: car
   m_TagString: Untagged
@@ -213,6 +214,19 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &114607966554437042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521680758377560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9971c8a157de64e4184e6e3c20c58b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1521680758377560}
+  scale: 2
 --- !u!114 &114765146573874634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 1
+  disableWhenIdle: 0
   allowedNearTouchControllers: 0
   allowedTouchControllers: 0
   ignoredColliders: []
