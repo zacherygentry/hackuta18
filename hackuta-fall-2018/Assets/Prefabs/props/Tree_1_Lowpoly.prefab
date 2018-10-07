@@ -22,12 +22,13 @@ GameObject:
   - component: {fileID: 33400549465050482}
   - component: {fileID: 23794404592940858}
   - component: {fileID: 54595814951691432}
-  - component: {fileID: 65619323132394974}
   - component: {fileID: 114956144719979192}
   - component: {fileID: 114326422789467380}
   - component: {fileID: 114475170588034680}
   - component: {fileID: 114863000234733214}
   - component: {fileID: 114773190610343706}
+  - component: {fileID: 65286378564457320}
+  - component: {fileID: 114734661875074904}
   m_Layer: 0
   m_Name: Tree_1_Lowpoly
   m_TagString: Untagged
@@ -63,8 +64,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 56b7f2e00db6d9a41a5b8da67aac2031, type: 2}
+  - {fileID: 2100000, guid: f15c56ed92a86bd44ad95523d4dd786d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,7 +107,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65619323132394974
+--- !u!65 &65286378564457320
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,8 +117,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.005818, y: 0.0061000013, z: 0.0112510035}
-  m_Center: {x: -0.00015099999, y: -0.00015500006, z: 0.0056245015}
+  m_Size: {x: 0.046540998, y: 0.04879901, z: 0.09000502}
+  m_Center: {x: -0.0012074998, y: -0.0012385001, z: 0.04499651}
 --- !u!114 &114326422789467380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -221,6 +222,23 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &114734661875074904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1909326229166830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!114 &114773190610343706
 MonoBehaviour:
   m_ObjectHideFlags: 1
