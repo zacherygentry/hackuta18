@@ -24,8 +24,8 @@ public class ConnectAndJoinRandom : Photon.MonoBehaviour
 
     private void Awake()
     {
-        PhotonNetwork.sendRate = 30;
-        PhotonNetwork.sendRateOnSerialize = 30;
+        PhotonNetwork.sendRate = 60;
+        PhotonNetwork.sendRateOnSerialize = 60;
     }
 
     public virtual void Update()
