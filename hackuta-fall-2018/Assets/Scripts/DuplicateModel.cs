@@ -20,9 +20,8 @@ public class DuplicateModel : MonoBehaviour {
         if (!isDuped)
         {
             Vector3 pos = transform.position;
-            GameObject go = Instantiate<GameObject>(prefab, pos, transform.rotation, transform.parent);
-            Debug.Log(prefab.name);
-            PhotonNetwork.Instantiate(prefab.name, pos, transform.rotation, 0);
+            //GameObject go = Instantiate<GameObject>(prefab, pos, transform.rotation, transform.parent);
+            GameObject go = PhotonNetwork.Instantiate(prefab.name, pos, transform.rotation, 0);
             go.GetComponent<VRTK_InteractableObject>().isGrabbable = true;
             GetComponent<Transform>().localScale *= 2f;
             isDuped = true;
