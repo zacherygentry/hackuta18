@@ -22,12 +22,12 @@ GameObject:
   - component: {fileID: 33510434409521546}
   - component: {fileID: 23007480032397792}
   - component: {fileID: 54058350758950024}
-  - component: {fileID: 65064180696263360}
   - component: {fileID: 114235705938428756}
   - component: {fileID: 114695455795847932}
   - component: {fileID: 114082723736961432}
   - component: {fileID: 114406746118348788}
   - component: {fileID: 114818912683590536}
+  - component: {fileID: 65204850801680614}
   m_Layer: 0
   m_Name: person-1332793_960_720
   m_TagString: Untagged
@@ -63,7 +63,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9494cf9ed99259b4ab276be06afa7a56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +105,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65064180696263360
+--- !u!65 &65204850801680614
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,8 +115,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.00183, y: 0, z: 0.0026110008}
-  m_Center: {x: 0, y: 0, z: 0.0013055004}
+  m_Size: {x: 0.01464, y: 0.012534085, z: 0.020892007}
+  m_Center: {x: 0, y: 3.742435e-17, z: 0.010446003}
 --- !u!114 &114082723736961432
 MonoBehaviour:
   m_ObjectHideFlags: 1

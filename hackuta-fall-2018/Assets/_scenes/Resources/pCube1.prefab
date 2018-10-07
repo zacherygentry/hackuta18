@@ -22,12 +22,12 @@ GameObject:
   - component: {fileID: 33834905271818058}
   - component: {fileID: 23693090141237186}
   - component: {fileID: 54431104443393644}
-  - component: {fileID: 65352315401383392}
   - component: {fileID: 114160873293680120}
   - component: {fileID: 114184262836377878}
   - component: {fileID: 114440006678350446}
   - component: {fileID: 114450232373971454}
   - component: {fileID: 114118518854131214}
+  - component: {fileID: 65158856008401036}
   m_Layer: 0
   m_Name: pCube1
   m_TagString: Untagged
@@ -121,7 +121,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65352315401383392
+--- !u!65 &65158856008401036
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,8 +131,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.007557, y: 0.0011110003, z: 0.009356002}
-  m_Center: {x: -0.0033755, y: -0.00015750005, z: 0.004678001}
+  m_Size: {x: 0.060456, y: 0.028595306, z: 0.07485201}
+  m_Center: {x: -0.027006, y: -0.0012620004, z: 0.037426006}
 --- !u!114 &114118518854131214
 MonoBehaviour:
   m_ObjectHideFlags: 1
